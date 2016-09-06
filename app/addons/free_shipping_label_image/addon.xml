@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<addon scheme="2.0" edition_type="ROOT,ULT">
+    <id>free_shipping_label_image</id>
+    <version>1.0</version>
+    <default_language>ru</default_language>
+    <name>Free shipping label</name>
+    <description>Display free shipping label on product details page</description>
+    <status>active</status>
+    <auto_install>ULTIMATE</auto_install>
+</addon>
