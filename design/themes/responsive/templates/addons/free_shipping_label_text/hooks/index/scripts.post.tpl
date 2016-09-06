@@ -2,10 +2,10 @@
     (function(_, $) {
 
         function appendShippingImage() {
-            $('.free-shipping-img').remove();
+            $('.free-shipping-label').remove();
 
             if ($('.free-shipping').length) {
-                $('.price-wrap').first().append($('<div class="free-shipping"><img class="free-shipping-img" src="{$images_dir}/addons/my_changes/free_shipping_label.png"/></div>'));
+                $('.price-wrap').first().append($('<div class="free-shipping-label">{__('free_shipping')}</div>'));
             }
         }
 
