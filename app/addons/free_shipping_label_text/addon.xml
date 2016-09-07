@@ -3,8 +3,8 @@
     <id>free_shipping_label_text</id>
     <version>1.0</version>
     <default_language>en</default_language>
-    <name>Free shipping label</name>
-    <description>Display free shipping label on product details page</description>
+    <name>Free shipping label (text)</name>
+    <description>Displays a corresponding text on the detail pages of all products with the enabled "Free shipping" setting.</description>
     <status>active</status>
     <auto_install>ULTIMATE</auto_install>
 </addon>
