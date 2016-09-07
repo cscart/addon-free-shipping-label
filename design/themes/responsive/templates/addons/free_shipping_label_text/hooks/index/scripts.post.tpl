@@ -1,7 +1,7 @@
 <script type="text/javascript">
     (function(_, $) {
 
-        function appendShippingImage() {
+        function appendShippingText() {
             $('.free-shipping-label').remove();
 
             if ($('.free-shipping').length) {
@@ -10,10 +10,10 @@
         }
 
         $(_.doc).on('click', '.cm-dialog-opener', function() {
-            setTimeout(appendShippingImage, 200);
+            setTimeout(appendShippingText, 200);
         });
 
-        $(_.doc).on('ready', appendShippingImage);
+        $(_.doc).on('ready', appendShippingText);
 
     }(Tygh, Tygh.$));
 </script>
