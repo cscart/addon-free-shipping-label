@@ -2,7 +2,7 @@
 <addon scheme="2.0" edition_type="ROOT,ULT">
     <id>free_shipping_label_image</id>
     <version>1.0</version>
-    <default_language>ru</default_language>
+    <default_language>en</default_language>
     <name>Free shipping label (image)</name>
     <description>Displays a special image on the detail pages of all products with the enabled "Free shipping" setting.</description>
     <status>active</status>
