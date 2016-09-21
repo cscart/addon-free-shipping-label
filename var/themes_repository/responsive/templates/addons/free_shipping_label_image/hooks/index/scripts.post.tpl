@@ -9,11 +9,8 @@
             }
         }
 
-        $(_.doc).on('click', '.cm-dialog-opener', function() {
-            setTimeout(appendShippingImage, 200);
-        });
-
-        $(_.doc).on('ready', appendShippingImage);
+        $.ceEvent('on', 'ce.commoninit', appendShippingImage);
+        $.ceEvent('on', 'ce.ajaxdone', appendShippingImage);
 
     }(Tygh, Tygh.$));
 </script>
