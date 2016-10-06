@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<addon scheme="2.0" edition_type="ROOT,ULT">
+<addon scheme="2.0" edition_type="ROOT,ULT:VENDOR">
     <id>free_shipping_label_image</id>
     <version>1.0</version>
     <default_language>en</default_language>
